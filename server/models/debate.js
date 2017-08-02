@@ -12,6 +12,6 @@ module.exports.addDebate = (debate, callback) => {
   debate.save(callback);
 };
 
-mode.exports.getAllActiveDebates = (callback) => {
-  
+module.exports.getDebateById = (id, callback) => {
+  Debate.findById(id, callback);
 };

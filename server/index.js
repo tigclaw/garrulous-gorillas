@@ -28,7 +28,9 @@ require('./config/passport')(passport);
 
 // Routes
 const users = require('./routes/users');
+const debates = require('./routes/debates');
 app.use('/users', users);
+app.use('/debates', debates);
 
 app.get('*', (req, res) => {
   res.send('hello');

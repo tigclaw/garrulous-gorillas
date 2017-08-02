@@ -21,7 +21,7 @@ class SignUp extends React.Component {
         // TODO: show the next view
       })
       .catch(error => {
-        console.log('[Signup] ERROR:', err);
+        console.log('[Signup] ERROR:', error);
         // TODO: show user error message in DOM
       });
     };
