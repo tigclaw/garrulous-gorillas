@@ -65,6 +65,13 @@ form, input, h1, h4, DebateItem {
 ul {
   list-style-type: none;
 }
-
-
-
+.user-role {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+.chat-container {
+  border: 1px solid gray;
+  width: 80%;
+  padding: 20px 50px 20px;
+  margin: 50px;
+}
